@@ -1,0 +1,99 @@
+@import "../abstract/variables.scss";
+
+/* Nav Section*/
+
+.nav__element {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+/* Main Section*/
+.main__container {
+  width: 100%;
+}
+.main__title {
+  position: absolute;
+  display: inline-block;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 20%;
+}
+
+.section__content {
+  margin: 20px;
+  padding: 20px;
+  width: 60%;
+}
+
+.section__image--coffee {
+  width: 30%;
+  height: 250px;
+  position: absolute;
+  margin-left: 900px;
+  right: 0;
+  z-index: -1;
+  bottom: -118px;
+}
+
+.section__image--grains {
+  width: 30%;
+  height: 180px;
+  margin-left: 350px;
+}
+
+.main__image {
+  position: relative;
+}
+.main__content {
+  position: absolute;
+  align-items: center;
+  margin-right: 180px;
+  width: 50%;
+  bottom: 4px;
+  right: 16px;
+  background-color: $color-blanco;
+  color: black;
+}
+.main__box {
+  float: left;
+  width: 20%;
+  padding: 13px;
+}
+
+.main__box-container {
+  background-color: $color-amarillo;
+  width: 100px;
+  height: 100px;
+  margin-left: 450px;
+  position: absolute;
+  z-index: 1;
+}
+.main__box--coral {
+  margin: -15px 0px 0px -15px;
+  background: $color-naranja;
+  width: 100px;
+  height: 100px;
+}
+
+.main__box__arrow {
+  position: absolute;
+  color: $color-blanco;
+  margin-top: 14px;
+  margin-left: 14px;
+  width: 40%;
+}
+
+.section__box--blue {
+  position: absolute;
+  background-color: $color-azul;
+  width: 30%;
+  margin-left: 397px;
+  bottom: -50px;
+}
+
+.section__image {
+  position: absolute;
+  width: 30%;
+  z-index: 1;
+  margin-left: 350px;
+}
